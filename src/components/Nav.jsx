@@ -8,7 +8,7 @@ function Nav() {
         <Container>
             <NavCon>
                 <div>
-                    <Logo to="/">PatiphanPro</Logo>
+                    <Logo to="/">Diamond</Logo>
                 </div>
                 <Menu>
                     <li><Link to="/">Home</Link></li>

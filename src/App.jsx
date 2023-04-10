@@ -15,7 +15,7 @@ function App() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    axios.get('https://gitconnected.com/v1/portfolio/ohmiler')
+    axios.get('https://gitconnected.com/v1/portfolio/maztermon')
       .then(res => setData(res.data))  
   }, [])
 

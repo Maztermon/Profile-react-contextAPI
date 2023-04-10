@@ -16,8 +16,8 @@ function About() {
             <li style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Name : {data.basics?.name}</li>
             <li>{data.basics?.headline}</li>
             <li>{data.basics?.region}</li>
-            <li>My Website : <a href={data.basics?.website} target="_blank">{data.basics?.website}</a></li>
-            <li>My Blog : <a href={data.basics?.blog} target="_blank">{data.basics?.blog}</a></li>
+            <li>My GitHub : <a href={data.basics?.website} target="_blank">{data.basics?.website}</a></li>
+            <li>E-mail : <a href={data.basics?.email} target="_blank">{data.basics?.email}</a></li>
         </ul>
         <hr />
         <h3>My Skills</h3>

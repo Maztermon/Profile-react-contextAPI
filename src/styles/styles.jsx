@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const NavBar = styled.nav`
     background: #333;
-    height: 50px;
+    height: 55px;
 `
 
 export const NavCon = styled.nav`
@@ -62,7 +62,7 @@ export const SkillsCom = styled.ul`
 `
 
 export const FooterCom = styled.footer`
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     background: #333;
     color: #fff;
