@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     axios.get('https://gitconnected.com/v1/portfolio/maztermon')
-      .then(res => setData(res.data))  
+      .then(res => setData(res.data)) 
   }, [])
 
   return (
